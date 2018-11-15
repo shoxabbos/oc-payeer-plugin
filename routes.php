@@ -1,0 +1,1 @@
+<?php Route::any('/payeer-webhook', 'Shohabbos\Payeer\Controllers\Payeer@index');

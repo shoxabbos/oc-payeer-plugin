@@ -1,0 +1,52 @@
+columns:
+    id:
+        label: id
+        type: number
+        invisible: true
+        sortable: true
+    m_operation_id:
+        label: m_operation_id
+        type: number
+        sortable: true
+    m_operation_ps:
+        label: m_operation_ps
+        type: text
+        invisible: true
+        sortable: true
+    m_operation_date:
+        label: m_operation_date
+        type: text
+        invisible: true
+        sortable: true
+    m_operation_pay_date:
+        label: m_operation_pay_date
+        type: text
+        invisible: true
+        sortable: true
+    m_shop:
+        label: m_shop
+        type: text
+        invisible: true
+        sortable: true
+    m_orderid:
+        label: m_orderid
+        type: text
+        invisible: false
+        sortable: true
+    m_amount:
+        label: m_amount
+        type: text
+        sortable: true
+    m_curr:
+        label: m_curr
+        type: text
+        sortable: true
+    m_desc:
+        label: m_desc
+        type: text
+        invisible: true
+        sortable: true
+    m_status:
+        label: m_status
+        type: text
+        sortable: true

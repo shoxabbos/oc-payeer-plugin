@@ -1,0 +1,75 @@
+tabs:
+    fields:
+        shop_id:
+            required: 1
+            label: 'shohabbos.payeer::lang.settings.shop_id'
+            comment: 'shohabbos.payeer::lang.settings.shop_id_desc'
+            span: auto
+            tab: 'shohabbos.payeer::lang.settings.tab_main'
+            type: text
+        key:
+            required: 1
+            label: 'shohabbos.payeer::lang.settings.key'
+            comment: 'shohabbos.payeer::lang.settings.key_desc'
+            span: auto
+            tab: 'shohabbos.payeer::lang.settings.tab_main'
+            type: text
+        currency:
+            default: USD
+            required: 1
+            label: 'shohabbos.payeer::lang.settings.currency'
+            comment: 'shohabbos.payeer::lang.settings.currency_desc'
+            span: auto
+            tab: 'shohabbos.payeer::lang.settings.tab_main'
+            type: text
+        status_url:
+            default: '/payeer-webhook'
+            label: 'shohabbos.payeer::lang.settings.status_url'
+            span: auto
+            required: 1
+            type: text
+            tab: 'shohabbos.payeer::lang.settings.tab_main'
+        optional_section:
+            label: 'shohabbos.payeer::lang.settings.optional_section'
+            span: full
+            type: section
+            tab: 'shohabbos.payeer::lang.settings.tab_main'
+        success_url:
+            label: 'shohabbos.payeer::lang.settings.success_url'
+            span: auto
+            tab: 'shohabbos.payeer::lang.settings.tab_main'
+            type: text
+        add_key:
+            label: 'shohabbos.payeer::lang.settings.add_key'
+            span: auto
+            tab: 'shohabbos.payeer::lang.settings.tab_main'
+            type: text
+        fail_url:
+            label: 'shohabbos.payeer::lang.settings.fail_url'
+            span: auto
+            tab: 'shohabbos.payeer::lang.settings.tab_main'
+            type: text
+        reference:
+            span: auto
+            label: 'shohabbos.payeer::lang.settings.reference'
+            type: repeater
+            tab: 'shohabbos.payeer::lang.settings.tab_main'
+            form:
+                fields:
+                    name:
+                        required: 1
+                        label: 'shohabbos.payeer::lang.settings.field_key'
+                        span: auto
+                        type: text
+                    rule:
+                        required: 1
+                        label: 'shohabbos.payeer::lang.settings.field_value'
+                        span: auto
+                        type: text
+        code:
+            label: 'shohabbos.payeer::lang.settings.code'
+            type: codeeditor
+            size: giant
+            tab: 'shohabbos.payeer::lang.settings.tab_code'
+            language: php
+            comment: 'shohabbos.payeer::lang.settings.code_desc'

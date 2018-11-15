@@ -1,0 +1,6 @@
+plugin:
+    name: 'shohabbos.payeer::lang.plugin.name'
+    description: 'shohabbos.payeer::lang.plugin.description'
+    author: Shohabbos
+    icon: oc-icon-paypal
+    homepage: 'https://itmaker.uz'
